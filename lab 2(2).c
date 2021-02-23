@@ -2,12 +2,12 @@
 #include<locale.h>
 #include<math.h>
 int main (void) {
-float a = 7;
-float b = 12;
-float c = -21;
-float y;//Buraz
+const int a = 7;
+const int b = 12;
+const int c = -21;
+int y;//Buraz
 y = (a-b)/(2*b+c)+(1)/(a);
 printf("\ty\n");
-printf("\t%f\n",y);
+printf("\t%d\n",y);
 return 0;
 }
